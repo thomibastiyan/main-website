@@ -4,10 +4,20 @@ nav.navbar {
     height: 85px;
     .navbar-rainbow {
         display: flex;
-        // width: 120px;
         height: 85px;
         content: "";
         margin-right: 2rem;
+        // width: 120px;
+        // transform: skewX(-30deg);
+        // background: linear-gradient(
+        //     to right,
+        //     $darker-epc 25%,
+        //     $primary-event 25%,
+        //     $primary-event 50%,
+        //     $secondary-event 50%,
+        //     $secondary-event 75%,
+        //     $secondary-snow 75%
+        // );
         .rainbow {
             width: 30px;
             height: inherit;

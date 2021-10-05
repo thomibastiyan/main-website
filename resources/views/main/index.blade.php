@@ -20,9 +20,11 @@
     {{-- Navbar --}}
     <nav class="navbar navbar-expand-lg py-0">
       <div class="container">
-        <a class="navbar-brand flex-lg-grow-1" href="#">
-          <img src="/img/epw-logo/logo-white.png" alt="EPW Logo" width="60">
-        </a>
+        <div class="navbar-brand flex-lg-grow-1">
+          <a href="#">
+            <img src="/img/epw-logo/logo-white.png" alt="EPW Logo" width="60">
+          </a>
+        </div>
         <div class="navbar-rainbow">
           <div class="rainbow"></div>
           <div class="rainbow"></div>
@@ -106,7 +108,7 @@
                   </a>
                 </div>
                 <div class="col-md-4 col-6">
-                  <a href="" target="_blank" class="footer-content">
+                  <a href="https://www.tiktok.com/@epw.its" target="_blank" class="footer-content">
                     <img src="/svg/icons/tiktok.svg" alt="" class="footer-icon">
                     <span>@epw.its</span>
                   </a>
