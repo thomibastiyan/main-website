@@ -12,4 +12,11 @@ class PagesController extends Controller
             'title' => 'Coming Soon'
         ]);
     }
+
+    public function index()
+    {
+        return view('main.index', [
+            'title' => 'Homepage'
+        ]);
+    }
 }

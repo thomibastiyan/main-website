@@ -215,4 +215,117 @@ table {
     width: 70px;
   }
 }
+
+nav.navbar {
+  background-color: #424a63;
+  color: #fde7b6;
+  height: 85px;
+}
+
+nav.navbar .navbar-rainbow {
+  display: flex;
+  height: 85px;
+  content: "";
+  margin-right: 2rem;
+}
+
+nav.navbar .navbar-rainbow .rainbow {
+  width: 30px;
+  height: inherit;
+  transform: skewX(-30deg);
+}
+
+nav.navbar .navbar-rainbow .rainbow:nth-of-type(1) {
+  background-color: #839b4e;
+}
+
+nav.navbar .navbar-rainbow .rainbow:nth-of-type(2) {
+  background-color: #fde7b6;
+}
+
+nav.navbar .navbar-rainbow .rainbow:nth-of-type(3) {
+  background-color: #df7833;
+}
+
+nav.navbar .navbar-rainbow .rainbow:nth-of-type(4) {
+  background-color: #a32c38;
+}
+
+nav.navbar button.navbar-toggler .fas {
+  color: #fde7b6;
+}
+
+nav.navbar .navbar-nav {
+  background-color: #424a63;
+}
+
+nav.navbar .navbar-nav a.nav-link {
+  display: inline-block;
+  height: fit-content;
+  padding: 0 1.25rem;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: inherit;
+  margin: auto 0;
+}
+
+nav.navbar .navbar-nav .dropdown .dropdown-menu {
+  background-color: #65659b;
+  border-color: #424a63;
+}
+
+nav.navbar .navbar-nav .dropdown .dropdown-menu a.dropdown-item {
+  color: #fde7b6;
+}
+
+footer.footer-blue {
+  background-color: #424a63;
+}
+
+footer.footer-blue .footer-logo {
+  width: 355px;
+  max-width: 100%;
+}
+
+footer.footer-blue .footer-desc {
+  color: #f2f2f2;
+}
+
+footer.footer-blue .footer-desc .footer-title {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+footer.footer-blue .footer-desc .footer-content {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 1.5px;
+  color: inherit;
+  text-decoration: none;
+}
+
+footer.footer-blue .footer-desc .footer-content p {
+  font-size: 1.75rem;
+}
+
+footer.footer-blue .footer-desc .footer-content span {
+  font-size: 1.25rem;
+}
+
+footer.footer-blue .footer-desc .footer-content .footer-icon {
+  padding-right: 1rem;
+}
+
+footer.footer-blue .copyright {
+  font-family: "Zilla Slab", serif;
+  color: #fde7b6;
+  font-size: 1rem;
+}
 /*# sourceMappingURL=style.css.map */

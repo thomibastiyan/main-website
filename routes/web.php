@@ -20,8 +20,8 @@ use App\Http\Controllers\PagesController;
 */
 
 // FOR MAIN WEBSITE
-// Route::get('/', [ApplicantController::class, 'create']);
 Route::get('/', [PagesController::class, 'comingsoon']);
+Route::get('/home', [PagesController::class, 'index']);
 
 // FOR OPEN RECRUITMENT
 Route::post('/applicantsubmit', [ApplicantController::class, 'store']);
