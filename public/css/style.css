@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -327,5 +327,90 @@ footer.footer-blue .copyright {
   font-family: "Zilla Slab", serif;
   color: #fde7b6;
   font-size: 1rem;
+}
+
+#epc {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(to right, #c5d8ab 25%, rgba(197, 216, 171, 0.07) 98.14%);
+}
+
+#epc .epc {
+  padding: 10px 0;
+}
+
+#epc .epc-header {
+  position: relative;
+}
+
+#epc .epc-header .epc-icon {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  mix-blend-mode: overlay;
+  width: 342px;
+  max-width: 100%;
+}
+
+#epc .epc-header .epc-title {
+  position: relative;
+  z-index: 2;
+  font-family: "Abril Fatface", cursive;
+  font-size: 128px;
+  color: #fde7b6;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+  padding: 3rem 0;
+}
+
+#epc .epc-desc {
+  background: rgba(242, 242, 242, 0.17);
+  backdrop-filter: blur(4px);
+  padding: 20px 50px;
+}
+
+#epc .epc-desc p {
+  font-family: "Zilla Slab", serif;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0.015em;
+  color: #f2f2f2;
+}
+
+#epc .epc-btn {
+  display: inline-block;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  background-color: #424a63;
+  padding: 10px 43px;
+  color: #fde7b6;
+  font-family: "Abril Fatface", cursive;
+  font-size: 18px;
+  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.25));
+  text-decoration: none;
+}
+
+#epc .epc-bg {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 992px) {
+  #epc .epc-btn {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #epc .epc-desc {
+    margin-top: 1rem;
+  }
+  #epc .epc-desc p {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

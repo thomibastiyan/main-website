@@ -1,0 +1,88 @@
+#epc {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(
+        to right,
+        #c5d8ab 25%,
+        rgba(197, 216, 171, 0.07) 98.14%
+    );
+    .epc {
+        padding: 10px 0;
+        &-header {
+            position: relative;
+            .epc-icon {
+                position: absolute;
+                z-index: 1;
+                right: 0;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                mix-blend-mode: overlay;
+                width: 342px;
+                max-width: 100%;
+            }
+            .epc-title {
+                position: relative;
+                z-index: 2;
+                font-family: $font-abril;
+                font-size: 128px;
+                color: $primary-event;
+                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+                padding: 3rem 0;
+            }
+        }
+        &-desc {
+            background: rgba(242, 242, 242, 0.17);
+            backdrop-filter: blur(4px);
+            padding: 20px 50px;
+            p {
+                font-family: $font-zilla;
+                font-size: 28px;
+                line-height: 34px;
+                letter-spacing: 0.015em;
+                color: $color-white;
+            }
+        }
+        &-btn {
+            display: inline-block;
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+            background-color: $darker-blue;
+            padding: 10px 43px;
+            color: $primary-event;
+            font-family: $font-abril;
+            font-size: 18px;
+            filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.25));
+            text-decoration: none;
+        }
+    }
+    .epc-bg {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #epc {
+        .epc {
+            &-btn {
+                margin-top: 3rem;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #epc {
+        .epc {
+            &-desc {
+                margin-top: 1rem;
+                p {
+                    font-size: 20px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
