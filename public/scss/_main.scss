@@ -1,87 +1,89 @@
-#epc {
+#main-definition {
     position: relative;
-    min-height: 100vh;
-    background: linear-gradient(
-        to right,
-        #c5d8ab 25%,
-        rgba(197, 216, 171, 0.07) 98.14%
-    );
-    .epc {
-        padding: 10px 0;
-        &-header {
+    background-color: $primary-event;
+    padding-bottom: 2rem;
+    .definition-content {
+        padding-left: 200px;
+        .definition-title {
+            height: 160px;
+            line-height: 160px;
+            font-family: $font-lobster;
+            font-size: 3.5rem;
+            letter-spacing: 0.05em;
+            color: $darker-blue;
+        }
+        .definition-desc {
             position: relative;
-            .epc-icon {
+            padding: 0 0 2rem 3rem;
+            border-left: 2px solid $darker-snow;
+            border-bottom: 2px solid $darker-snow;
+            margin-bottom: 3rem;
+            font-family: $font-zilla;
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            text-align: justify;
+            color: $darker-snow;
+            .box {
                 position: absolute;
-                z-index: 1;
-                right: 0;
-                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-                mix-blend-mode: overlay;
-                width: 342px;
-                max-width: 100%;
+                content: "";
+                top: 0;
+                left: -2px;
+                width: 22px;
+                height: 22px;
+                border: 2px solid $darker-snow;
+                .inner {
+                    position: absolute;
+                    content: "";
+                    top: 10px;
+                    left: -2px;
+                    width: 10px;
+                    height: 10px;
+                    background-color: $darker-snow;
+                }
             }
-            .epc-title {
-                position: relative;
-                z-index: 2;
-                font-family: $font-abril;
-                font-size: 128px;
-                color: $primary-event;
-                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
-                padding: 3rem 0;
-            }
-        }
-        &-desc {
-            background: rgba(242, 242, 242, 0.17);
-            backdrop-filter: blur(4px);
-            padding: 20px 50px;
-            p {
-                font-family: $font-zilla;
-                font-size: 28px;
-                line-height: 34px;
-                letter-spacing: 0.015em;
-                color: $color-white;
-            }
-        }
-        &-btn {
-            display: inline-block;
-            margin-top: 5rem;
-            margin-bottom: 2rem;
-            background-color: $darker-blue;
-            padding: 10px 43px;
-            color: $primary-event;
-            font-family: $font-abril;
-            font-size: 18px;
-            filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.25));
-            text-decoration: none;
         }
     }
-    .epc-bg {
+    .main-definition-wire {
         position: absolute;
-        z-index: -1;
-        right: 0;
         top: 0;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    #epc {
-        .epc {
-            &-btn {
-                margin-top: 3rem;
-                margin-bottom: 2rem;
-            }
-        }
+        left: 0;
+        width: 200px;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    #epc {
-        .epc {
-            &-desc {
-                margin-top: 1rem;
-                p {
-                    font-size: 20px;
-                    line-height: 25px;
-                }
+    #main-definition {
+        position: relative;
+        background-color: $primary-event;
+        min-height: 100vh;
+        .definition-content {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            .definition-title {
+                height: 160px;
+                line-height: 160px;
+                font-family: $font-lobster;
+                font-size: 3rem;
+                text-align: justify;
+                letter-spacing: 0.05em;
+                color: $darker-blue;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #main-definition {
+        .main-definition-wire {
+            position: static;
+            display: block;
+        }
+        .definition-content {
+            .definition-title {
+                height: fit-content;
+                line-height: 5rem;
+                text-align: center !important;
             }
         }
     }
