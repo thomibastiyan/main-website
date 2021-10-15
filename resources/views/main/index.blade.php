@@ -80,7 +80,7 @@
       <a href="" class="epc-btn">Detail</a>
     </div>
   </div>
-  <img src="/jpg/DSC_1274 1.jpg" class="epc-nih" alt="epc-nih">
+  <img src="/img/EPC/bg-EPC.jpg" class="epc-nih" alt="epc-nih">
 </section>
 <!-- end of EPC-->
 <!-- SNOW -->
@@ -100,7 +100,7 @@
       <a href="" class="snow-btn">Detail</a>
     </div>
   </div>
-  <img src="/jpg/IMG_6989 1.jpg" class="snow-nih" alt="snow-nih">
+  <img src="/img/SNOW/bg-snow.jpg" class="snow-nih" alt="snow-nih">
 </section>
 <!-- end of SNOW -->
 <!-- Grand Roadshow -->
@@ -119,7 +119,8 @@
       <a href="" class="GR-btn">Detail</a>
     </div>
   </div>
-  <img src="/jpg/IMG_6930 (FILEminimizer) 1.jpg" class="GR-nih" alt="GR-nih">
+  <img src="/img/Grand-Roadshow/bg-grand-roadshow
+  .jpg" class="GR-nih" alt="GR-nih">
 </section>
 <!-- end of Grand Roadshow -->
 <!-- Big Event -->
@@ -137,7 +138,7 @@
       <a href="" class="BE-btn">Detail</a>
     </div>
   </div>
-  <img src="/jpg/_DSC0110 1.jpg" class="BE-nih" alt="BE-nih">
+  <img src="/img/Big-Event/bg-big-event.jpg" class="BE-nih" alt="BE-nih">
 </section>
 <!-- end of Big Event -->
 {{-- End of Buat KIKIK --}}
