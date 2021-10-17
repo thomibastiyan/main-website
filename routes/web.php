@@ -31,6 +31,9 @@ Route::get('/fotonika', function (){
 Route::get('/lpkrk', function (){
   return view('main.lpkrk',['title'=>'LPKRK']);
 });
+Route::get('/about', function (){
+  return view('main.about',['title'=>'About TF']);
+});
 
 
 // FOR OPEN RECRUITMENT
