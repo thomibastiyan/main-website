@@ -1,15 +1,16 @@
-@extends("main.layout.main")
+@extends("main.layouts.main")
+
 @section("content")
     <!--deskripsi Lab-->
     <section class="container mt-5">
-      <h1 class="text-center mt-5 fw-bold" style="font-family: Abril Fatface; color: #424a63; font-size: 42px"> Laboratorium Rekayasa Energi dan Pengkondisian Lingkungan</h1>
+      <h1 class="text-center mt-5 fw-bold" style="font-family: Abril Fatface; color: #424a63; font-size: 42px">Laboratorium Sistem Tertanam dan Siber-Fisik</h1>
       <div class="row justify-content-center" style="width: auto">
         <div class="col mt-5">
-          <img src="../img/lab-logo/energi.png" class="img-fluid" alt="logo lab energi"/>
+          <img src="../img/lab-logo/ecs.png" class="img-fluid" alt="logo lab ECS"/>
         </div>
         <div class="col-8">
           <div class="badge text-wrap">
-            <p class="fs-5 m-auto lh-base" style="font-family: Zilla Slab; text-align: justify; color: #424a63">Laboratorium ini merupakan tempat khusus untuk mempelajari dan mendalami bidang ilmu energi dan pengkondisian lingkungan (rekayasa thermal). Dalam menunjang bidang ilmu tersebut, maka laboratorium ini dibagi menjadi tiga bidang minat dalam pembelajarannya. Antara lain yaitu bidang minat Rekayasa Thermal, bidang minat Renewable Energi, dan bidang minat Energi Management dan Green Building</p>
+            <p class="fs-5 m-auto lh-base" style="font-family: Zilla Slab; text-align: justify; color: #424a63">Laboratorium Sistem Tertanam dan Siber-Fisik menghubungkan gagasan penelitian terbaru berbasis fisika dengan pengembangan produk/proses dalam format embedded system dan skema internet-of-things.</p>
           </div>
         </div>
       </div>
@@ -23,9 +24,12 @@
         <div class="col">
           <div class="badge text-wrap" style="width: auto">
             <p class="text-start fs-5 m-auto lh-base" style="color: #424a63; font-family: 'Zilla Slab', serif">
-           1. Bidang Minat Rekayasa Thermal (Thermal and Fluid Engineering)<br>
-           2. Bidang Minat Renewable Energy<br>
-           3. Bidang Minat Energy Management and Green Building<br>
+             1. Autonomous Vehicle<br>
+             2. Sistem Pengereman Regeneratice Anti-Lock Bracking System (ABS)<br>
+             3. Test Rig untuk Fault Detection<br>
+             4. Monitoring keandalan sistem secara real-time<br>
+             5. Speed Sensorless Control<br>
+             6. Internet of Things (IoT)<br>
           
             </p>
           </div>
@@ -41,7 +45,11 @@
         <div class="col">
           <div class="badge text-wrap" style="width: auto">
             <p class="text-start fs-5 m-auto lh-base" style="color: #424a63; font-family: 'Zilla Slab', serif">
-             BELUM ADA <br>
+             1. Rancang Bangun Estimator Handal untuk Menunjang Sistem peed Sensorless Induction Motor di PT. INKA		2020, Dr. Katherin Indriawati, ST., M.T.	Choirul Mufit<br>
+             2. Perancangan Fault Tolerant Control Pada Pengendalian Speed Sensorless Motor DC	2020, Dr. Katherin Indriawati, ST., M.T.	Diyajeng Luluk Karlina	<br>
+             3. Rancang Bangun Intelligent Autonomous Vehicle Menggunakan Sensor Fusion Berbasis Deep Learning 2021,	Dr.Bambang Lelono Widjiantoro, S.T.,M.T	Ahmad Ibnu Hija<br>
+             4. Rancang Bangun Estimator Handal untuk Menunjang Sistem Speed Sensorless Induction Motor di PT. INKA	2021, Dr. Katherin Indriawati, ST., M.T.	Choirul Mufit<br>
+             5. RANCANG  BANGUN REGENERATIF ANTI-LOCK BRAKING SYSTEM BERBASIS KONTROL SLIDING MODE CONTROL (SMC) PADA MOBIL LISTRIK	2021, Dr. Katherin Indriawati, ST., M.T.	Nur Adlun Hafiizh , Ahmah Hazmi Said<br>
             </p>
           </div>
         </div>
@@ -56,14 +64,9 @@
         <div class="col">
           <div class="badge text-wrap" style="width: auto">
             <p class="text-start fs-5 m-auto lh-base" style="color: #424a63; font-family: 'Zilla Slab', serif">
-           1. Juara 2 Lomba KTI DISCO 4th 2021<br>
-           2. Juara 2 International Geothermal Study Case Competition by OGIP 2021<br>
-           3. Favorite winner Baroeyes International Energy Fair 2021<br>
-           4. Juara 1 Lomba KTI Pekan Raya Fisika IV Nasional 2021<br>
-           5. 4th Place Global Virtual League<br>
-           6. 3rd Place Virtual Technical Inspection<br>
-           7. 2nd Autonomous Programming<br>
-           8. Winner off track award : Data and Telemetry<br>
+             1. Juara 3 kategori Muatan Balon Atmosfer 2015. <br>
+             2. Ide Terbaik Kategori Wahana 2017.<br>
+             3. Juara 5 Kategori Wahana Sistem Kendali 2019<br>
               
             </p>
           </div>

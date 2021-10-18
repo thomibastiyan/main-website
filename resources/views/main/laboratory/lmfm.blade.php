@@ -1,4 +1,5 @@
-@extends("main.layout.main")
+@extends("main.layouts.main")
+
 @section("content")
 <!--deskripsi Lab-->
     <section class="container mt-5">
