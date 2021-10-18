@@ -33,6 +33,12 @@ Route::get('/lpkrk', function (){
 });
 
 
+Route::get('/snow', function () {
+  return view('main.snow', [
+    'title' => 'SNOW'
+  ]);
+});
+
 // FOR OPEN RECRUITMENT
 Route::post('/applicantsubmit', [ApplicantController::class, 'store']);
 Route::get('/InterviewAnnouncement', [ApplicantController::class, 'interviewAnnouncement']);

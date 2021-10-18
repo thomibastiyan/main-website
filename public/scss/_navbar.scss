@@ -2,6 +2,7 @@ nav.navbar {
     background-color: $darker-blue;
     color: $primary-event;
     height: 85px;
+    z-index: 5;
 
     .navbar-rainbow {
         display: flex;
