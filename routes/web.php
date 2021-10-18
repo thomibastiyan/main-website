@@ -22,14 +22,17 @@ use App\Http\Controllers\PagesController;
 // FOR MAIN WEBSITE
 Route::get('/', [PagesController::class, 'comingsoon']);
 Route::get('/home', [PagesController::class, 'index']);
-Route::get('/vibrastik', function (){
-  return view('main.vibrastik',['title'=>'Vibrastik']);
+Route::get('/vibrastik', function () {
+  return view('main.vibrastik', ['title' => 'Vibrastik']);
 });
-Route::get('/fotonika', function (){
-  return view('main.fotonika',['title'=>'Fotonika']);
+Route::get('/fotonika', function () {
+  return view('main.fotonika', ['title' => 'Fotonika']);
 });
-Route::get('/lpkrk', function (){
-  return view('main.lpkrk',['title'=>'LPKRK']);
+Route::get('/lpkrk', function () {
+  return view('main.lpkrk', ['title' => 'LPKRK']);
+});
+Route::get('/ico', function () {
+  return view('main.ico', ['title' => 'ICO']);
 });
 
 
