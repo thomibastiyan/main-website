@@ -34,7 +34,9 @@ Route::get('/lpkrk', function (){
 Route::get('/about', function (){
   return view('main.about',['title'=>'About TF']);
 });
-
+Route::get('/epc', function (){
+  return view('main.epc',['title'=>'EPC']);
+});
 
 Route::get('/snow', function () {
   return view('main.snow', [
