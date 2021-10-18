@@ -37,7 +37,15 @@ Route::get('/ico', function () {
 Route::get('/about', function (){
   return view('main.about',['title'=>'About TF']);
 });
-
+Route::get('/about', function (){
+  return view('main.lmfm',['title'=>'LMFM']);
+});
+Route::get('/about', function (){
+  return view('main.ecs',['title'=>'ECS']);
+});
+Route::get('/about', function (){
+  return view('main.energi',['title'=>'ECS']);
+});
 
 Route::get('/snow', function () {
   return view('main.snow', [
