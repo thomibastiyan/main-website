@@ -1,0 +1,100 @@
+.person {
+    position: absolute;
+    z-index: 2;
+    top: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.box-content {
+    background-color: #f2f2f2;
+    padding: 97px 70px 100px 70px;
+}
+
+.content {
+    background-color: #c5d8ab;
+    border-radius: 40px;
+    padding: 90px 15vw;
+    box-sizing: border-box;
+}
+
+.namatim {
+    color: #65659b;
+}
+
+.btn-kartu {
+    background-color: #424a63;
+    padding: 5px 40px;
+    color: white;
+}
+
+.box {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    width: 300px;
+}
+
+.box2, .box3 {
+    width: 250px;
+}
+
+.logo {
+    border-radius: 10px 0 0 10px;
+    background-color: #424a63;
+}
+
+.desc {
+    border-radius: 0 10px 10px 0;
+    background-color: #fde7b6;
+}
+
+.vidio-group {
+    margin-top: 40px;
+}
+
+.bar {
+    width: 100%;
+    height: 20px;
+    background-color: #424a63;
+    border-radius: 10px 10px 0 0;
+}
+
+.vidio {
+    width: 100%;
+    height: 400px;
+    background-color: #fde7b6;
+    border-radius: 0 0 10px 10px;
+}
+
+.selamat {
+    position: relative;
+    left: -10%;
+    padding: 20px 40px;
+    margin-top: 200px;
+    background-color: #fde7b6;
+    width: 120%;
+}
+
+#pesan {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 540px) {
+    .logo {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .desc {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .subjudul, .ket {
+        text-align: center !important;
+    }
+  }

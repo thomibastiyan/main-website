@@ -25,6 +25,11 @@ Route::get('/home', [PagesController::class, 'index']);
 Route::get('/vibrastik', function () {
   return view('main.vibrastik', ['title' => 'Vibrastik']);
 });
+
+Route::get('/about', function (){
+  return view('main.about',['title'=>'About TF']);
+});
+
 Route::get('/fotonika', function () {
   return view('main.fotonika', ['title' => 'Fotonika']);
 });
@@ -34,22 +39,26 @@ Route::get('/lpkrk', function () {
 Route::get('/ico', function () {
   return view('main.ico', ['title' => 'ICO']);
 });
-Route::get('/about', function (){
-  return view('main.about',['title'=>'About TF']);
-});
-Route::get('/about', function (){
+Route::get('/lmfm', function (){
   return view('main.lmfm',['title'=>'LMFM']);
 });
-Route::get('/about', function (){
+Route::get('/ecs', function (){
   return view('main.ecs',['title'=>'ECS']);
 });
-Route::get('/about', function (){
-  return view('main.energi',['title'=>'ECS']);
+Route::get('/energi', function (){
+  return view('main.energi',['title'=>'Energi']);
 });
-
 Route::get('/snow', function () {
   return view('main.snow', [
     'title' => 'SNOW'
+  ]);
+});
+
+Route::get('/registrasi', [PagesController::class, 'registrasi']);
+Route::get('/prapenyisihan', [PagesController::class, 'prapenyisihan']);
+Route::get('/loginepc',function(){
+  return view ('main.loginepc',[
+    'title'=>'loginepc'
   ]);
 });
 

@@ -1,0 +1,71 @@
+.content {
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.line {
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.custom-file-input {
+    color: transparent;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    color: #859AB7;
+    display: inline-block;
+    background: white;
+    border-radius: 3px;
+    width: 100%;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+.custom-file-input:active {
+    outline: 0;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+
+#fotoketua::before,#kartuketua::before {
+    content: 'Ketua';
+}
+
+#fotoanggota1::before,#kartuanggota1::before {
+    content: 'Anggota 1';
+}
+
+#fotoanggota2::before,#kartuanggota2::before {
+    content: 'Anggota 2';
+}
+
+.custom-file-input#buktipembayaran::before {
+    content: 'Bukti Pembayaran';
+    width: 200px !important;
+}
+.plus {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+.pembayaran {
+    background-color: #fde7b6;
+    padding: 20px 30px;
+    border-radius: 3px;
+}
