@@ -19,4 +19,17 @@ class PagesController extends Controller
             'title' => 'Homepage'
         ]);
     }
+    public function registrasi()
+    {
+        return view('main.registrasi', [
+            'title' => 'Registrasi'
+        ]);
+    }
+
+    public function prapenyisihan() 
+    {
+        return view('main.prapenyisihan', [
+            'title' => 'Pra Penyisihan'
+        ]);
+    }
 }

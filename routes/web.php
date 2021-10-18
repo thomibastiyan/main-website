@@ -34,6 +34,13 @@ Route::get('/lpkrk', function (){
 Route::get('/about', function (){
   return view('main.about',['title'=>'About TF']);
 });
+Route::get('/registrasi', [PagesController::class, 'registrasi']);
+Route::get('/prapenyisihan', [PagesController::class, 'prapenyisihan']);
+Route::get('/loginepc',function(){
+  return view ('main.loginepc',[
+    'title'=>'loginepc'
+  ]);
+});
 
 
 Route::get('/snow', function () {
