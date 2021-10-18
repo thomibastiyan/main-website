@@ -1580,4 +1580,839 @@ footer.footer-blue .copyright {
     transform: translate(-50%, -50%);
   }
 }
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tf {
+  background-image: url("../img/bg-about-tf.png");
+  /* position: relative; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.tf .TF {
+  padding-top: 30vh;
+  overflow-x: hidden;
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.tf .TF .TF-text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  width: 60%;
+  padding: 25px;
+  background: rgba(154, 178, 112, 0.68);
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  text-align: center;
+}
+
+@media (max-width: 567.95px) {
+  .tf .TF .TF-text {
+    width: 75%;
+  }
+}
+
+.tf .TF .TF-text h1 {
+  font-family: Abril Fatface;
+  font-size: 5rem;
+  line-height: 5rem;
+  color: #424a63;
+  overflow-y: hidden;
+}
+
+@media (max-width: 567.95px) {
+  .tf .TF .TF-text h1 {
+    font-size: 4rem;
+  }
+}
+
+.tf .TF .ITS-text {
+  margin-top: 20px;
+  padding: 5px;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(253, 231, 182, 0.84);
+  border-radius: 15px;
+  overflow-x: hidden;
+}
+
+.tf .TF .ITS-text h2 {
+  padding: 0.5em;
+  font-family: Abril Fatface;
+  font-size: 1.4rem;
+  text-align: center;
+  overflow-x: hidden;
+  color: #424A63;
+}
+
+.EP {
+  background-image: url("../img/bg-ep.png");
+  overflow-y: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+.EP .ep-title {
+  padding-top: 6em;
+}
+
+.EP h1 {
+  text-align: center;
+  font-family: Abril Fatface;
+  font-size: 3rem;
+  color: #424A63;
+}
+
+.EP .Ep-text {
+  background: rgba(253, 231, 182, 0.63);
+  backdrop-filter: blur(4px);
+  width: 80%;
+  height: 50%;
+  display: -ms-flexbox;
+  /* position: absolute; */
+  /* padding-top: 2em; */
+  /* -webkit-box-align: center; */
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-bottom: 20%;
+  padding: 2em;
+  font-weight: 700;
+  text-align: justify;
+  margin-top: 4em;
+}
+
+@media (min-width: 768px) {
+  .EP .Ep-text p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2rem;
+    font-family: "Zilla Slab", serif;
+    color: #839B4E;
+  }
+}
+
+@media (max-width: 568.75px) {
+  .EP .Ep-text p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1rem;
+    font-family: "Zilla Slab", serif;
+    color: #839B4E;
+  }
+}
+
+.lab {
+  background: #9ab270;
+  display: flex;
+  color: #839B4E;
+}
+
+@media (min-width: 768px) {
+  .lab .seven {
+    margin-top: 0%;
+    margin-left: 50%;
+    font-family: Abril Fatface;
+    font-size: 11rem;
+    line-height: 14rem;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .seven {
+    margin-top: 0%;
+    margin-left: 30%;
+    font-family: Abril Fatface;
+    font-size: 6rem;
+    line-height: 10rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .lab .seven .labs {
+    margin-top: -47%;
+    margin-left: 26%;
+    font-size: 4rem;
+    line-height: 7rem;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .seven .labs {
+    margin-top: -85%;
+    margin-left: 34%;
+    font-size: 1.6rem;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .lab .seven .di {
+    margin-top: -6%;
+    margin-left: 26%;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .seven .di {
+    margin-top: -25%;
+    margin-left: 34%;
+    font-size: 1rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .lab .seven .tff {
+    margin-top: -17%;
+    margin-left: 38%;
+    font-size: 4rem;
+    line-height: 7rem;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .seven .tff {
+    margin-top: -37%;
+    margin-left: 46%;
+    font-size: 1.6rem;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .lab .seven .fis {
+    margin-top: -27%;
+    margin-left: 93%;
+    font-size: 4rem;
+    line-height: 7rem;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .seven .fis {
+    margin-top: -57%;
+    margin-left: 100%;
+    font-size: 1.6rem;
+    line-height: 7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .lab .seven .its {
+    margin-top: -27%;
+    margin-left: 140%;
+    font-size: 4rem;
+    line-height: 7rem;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .seven .its {
+    margin-top: -67%;
+    margin-left: 145%;
+    font-size: 1.6rem;
+    line-height: 7rem;
+  }
+}
+
+.lab .seven .vektor {
+  margin-top: -53%;
+  margin-left: -150%;
+  width: 70%;
+}
+
+.lab .seven .vektor img {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .lab .ins {
+    margin-top: 18%;
+    margin-left: -68%;
+    width: 83vw;
+    height: 3.5vw;
+    background: linear-gradient(90deg, #fde7b6 0%, rgba(253, 231, 182, 0) 118.48%);
+    border: 1px solid #424a63;
+    box-sizing: border-box;
+  }
+  .lab .ins p {
+    font-family: Zilla Slab;
+    font-size: 2.5rem;
+    text-align: justify;
+    text-justify: inter-cluster;
+    margin-left: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .ins {
+    margin-top: 33%;
+    margin-left: -62%;
+    width: 83vw;
+    height: 4.2vw;
+    background: linear-gradient(90deg, #fde7b6 0%, rgba(253, 231, 182, 0) 118.48%);
+    border: 1px solid #424a63;
+    box-sizing: border-box;
+  }
+  .lab .ins p {
+    font-family: Zilla Slab;
+    font-size: 0.8rem;
+    text-align: justify;
+    text-justify: justify;
+    margin-left: 2%;
+    line-height: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .lab .kse {
+    margin-top: 22.5%;
+    margin-left: -83.8%;
+    width: 83vw;
+    height: 3.5vw;
+    background: linear-gradient(90deg, #424a63 0%, rgba(66, 74, 99, 0) 119.01%);
+    border: 1px solid #fde7b6;
+    box-sizing: border-box;
+  }
+  .lab .kse p {
+    font-family: Zilla Slab;
+    font-size: 2.5rem;
+    text-align: justify;
+    text-justify: inter-cluster;
+    margin-left: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fde7b6;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .kse {
+    margin-top: 38%;
+    margin-left: -83%;
+    width: 83vw;
+    height: 4.2vw;
+    background: linear-gradient(90deg, #fde7b6 0%, rgba(253, 231, 182, 0) 118.48%);
+    border: 1px solid #424a63;
+    box-sizing: border-box;
+  }
+  .lab .kse p {
+    font-family: Zilla Slab;
+    font-size: 0.7rem;
+    text-align: justify;
+    text-justify: justify;
+    margin-left: 2%;
+    line-height: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .lab .lmfm {
+    margin-top: 27%;
+    margin-left: -83.8%;
+    width: 83vw;
+    height: 3.5vw;
+    background: linear-gradient(90deg, #424a63 0%, rgba(66, 74, 99, 0) 119.01%);
+    border: 1px solid #fde7b6;
+    box-sizing: border-box;
+  }
+  .lab .lmfm p {
+    font-family: Zilla Slab;
+    font-size: 2.5rem;
+    text-align: justify;
+    text-justify: inter-cluster;
+    margin-left: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fde7b6;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .lmfm {
+    margin-top: 43%;
+    margin-left: -83%;
+    width: 83vw;
+    height: 4.2vw;
+    background: linear-gradient(90deg, #fde7b6 0%, rgba(253, 231, 182, 0) 118.48%);
+    border: 1px solid #424a63;
+    box-sizing: border-box;
+  }
+  .lab .lmfm p {
+    font-family: Zilla Slab;
+    font-size: 0.7rem;
+    text-align: justify;
+    text-justify: justify;
+    margin-left: 2%;
+    line-height: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .lab .vibs {
+    margin-top: 31.5%;
+    margin-left: -83.8%;
+    width: 83vw;
+    height: 3.5vw;
+    background: linear-gradient(90deg, #424a63 0%, rgba(66, 74, 99, 0) 119.01%);
+    border: 1px solid #fde7b6;
+    box-sizing: border-box;
+  }
+  .lab .vibs p {
+    font-family: Zilla Slab;
+    font-size: 2.5rem;
+    text-align: justify;
+    text-justify: inter-cluster;
+    margin-left: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fde7b6;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .vibs {
+    margin-top: 48%;
+    margin-left: -83%;
+    width: 83vw;
+    height: 4.2vw;
+    background: linear-gradient(90deg, #fde7b6 0%, rgba(253, 231, 182, 0) 118.48%);
+    border: 1px solid #424a63;
+    box-sizing: border-box;
+  }
+  .lab .vibs p {
+    font-family: Zilla Slab;
+    font-size: 0.7rem;
+    text-align: justify;
+    text-justify: justify;
+    margin-left: 2%;
+    line-height: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .lab .fotons {
+    margin-top: 36%;
+    margin-left: -83.8%;
+    width: 83vw;
+    height: 3.5vw;
+    background: linear-gradient(90deg, #424a63 0%, rgba(66, 74, 99, 0) 119.01%);
+    border: 1px solid #fde7b6;
+    box-sizing: border-box;
+  }
+  .lab .fotons p {
+    font-family: Zilla Slab;
+    font-size: 2.5rem;
+    text-align: justify;
+    text-justify: inter-cluster;
+    margin-left: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fde7b6;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .fotons {
+    margin-top: 53.5%;
+    margin-left: -83%;
+    width: 83vw;
+    height: 4.2vw;
+    background: linear-gradient(90deg, #fde7b6 0%, rgba(253, 231, 182, 0) 118.48%);
+    border: 1px solid #424a63;
+    box-sizing: border-box;
+  }
+  .lab .fotons p {
+    font-family: Zilla Slab;
+    font-size: 0.7rem;
+    text-align: justify;
+    text-justify: justify;
+    margin-left: 2%;
+    line-height: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .lab .ecs {
+    margin-top: 40.5%;
+    margin-left: -83.8%;
+    width: 83vw;
+    height: 3.5vw;
+    background: linear-gradient(90deg, #424a63 0%, rgba(66, 74, 99, 0) 119.01%);
+    border: 1px solid #fde7b6;
+    box-sizing: border-box;
+  }
+  .lab .ecs p {
+    font-family: "Zilla Slab", serif;
+    font-size: 2.5rem;
+    text-align: justify;
+    text-justify: inter-cluster;
+    margin-left: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fde7b6;
+  }
+}
+
+@media (max-width: 567.95px) {
+  .lab .ecs {
+    margin-top: 59%;
+    margin-left: -83%;
+    width: 83vw;
+    height: 4.2vw;
+    background: linear-gradient(90deg, #fde7b6 0%, rgba(253, 231, 182, 0) 118.48%);
+    border: 1px solid #424a63;
+    box-sizing: border-box;
+  }
+  .lab .ecs p {
+    font-family: "Zilla Slab", serif;
+    font-size: 0.7rem;
+    text-align: justify;
+    text-justify: justify;
+    margin-left: 2%;
+    line-height: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.lab .lpkrk {
+  margin-top: 45%;
+  margin-left: -83.8%;
+  width: 83vw;
+  height: 3.5vw;
+  background: linear-gradient(90deg, #424a63 0%, rgba(66, 74, 99, 0) 119.01%);
+  border: 1px solid #fde7b6;
+  box-sizing: border-box;
+  margin-bottom: 10%;
+}
+
+.lab .lpkrk p {
+  font-family: Zilla Slab;
+  font-size: 2.5rem;
+  text-align: justify;
+  text-justify: inter-cluster;
+  margin-left: 2%;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #fde7b6;
+}
+
+@media (max-width: 567.95px) {
+  .lab .lpkrk {
+    margin-top: 64%;
+    margin-left: -83%;
+    width: 83vw;
+    height: 4.2vw;
+    background: linear-gradient(90deg, #fde7b6 0%, rgba(253, 231, 182, 0) 118.48%);
+    border: 1px solid #424a63;
+    box-sizing: border-box;
+  }
+  .lab .lpkrk p {
+    font-family: Zilla Slab;
+    font-size: 0.7rem;
+    text-align: justify;
+    text-justify: justify;
+    margin-left: 2%;
+    line-height: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.bidang-minat {
+  background-color: #c5d8ab;
+  display: flex;
+  position: relative;
+}
+
+.bidang-minat .container .vektor {
+  position: absolute;
+  right: 9%;
+  top: 4%;
+}
+
+.bidang-minat .container .vektor img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bidang-minat .container .bidmin-title {
+  font-family: Abril Fatface;
+  display: flex;
+  float: left;
+}
+
+.bidang-minat .container .bidmin-title .number {
+  font-family: Abril Fatface;
+  font-size: 11rem;
+  line-height: 14rem;
+  color: #424A63;
+}
+
+.bidang-minat .container .bidmin-title .title {
+  margin-left: 3rem;
+  line-height: 5em;
+  color: #839B4E;
+}
+
+.bidang-minat .container .bidmin-title .title .bidmin-tf {
+  font-size: 4rem;
+}
+
+.bidang-minat .container .bidmin-title .title .sub-title {
+  display: inline-flex;
+}
+
+.bidang-minat .container .bidmin-title .title .sub-title .di {
+  font-size: 2.5rem;
+}
+
+.bidang-minat .container .bidmin-title .title .sub-title .tff {
+  font-size: 4rem;
+}
+
+.bidang-minat .container .content-bidmin {
+  display: inline-block;
+  padding-bottom: 3em;
+}
+
+.bidang-minat .container .content-bidmin ul {
+  list-style: none;
+}
+
+.bidang-minat .container .content-bidmin ul .first {
+  font-family: Zilla Slab;
+  font-size: 2.25rem;
+  background: #fde7b6;
+  border: 1px solid #fde7b6;
+  box-sizing: border-box;
+  padding: 0 0em;
+  margin-bottom: 0.5em;
+}
+
+.bidang-minat .container .content-bidmin ul li {
+  font-family: Zilla Slab;
+  font-size: 2.25rem;
+  background: linear-gradient(90deg, #fde7b6 0%, rgba(253, 231, 182, 0) 118.48%);
+  border: 1px solid #424a63;
+  color: #424A63;
+  box-sizing: border-box;
+  padding: 0 0.5em;
+  margin-bottom: 1rem;
+}
+
+.laboratorium {
+  background-color: #9ab270;
+  display: flex;
+  position: relative;
+}
+
+.laboratorium .container .vektor {
+  position: absolute;
+  left: 9%;
+  top: 4%;
+}
+
+.laboratorium .container .vektor img {
+  max-width: 100%;
+  height: auto;
+}
+
+.laboratorium .container .lab-title {
+  font-family: Abril Fatface;
+  display: flex;
+  float: right;
+}
+
+.laboratorium .container .lab-title .number {
+  font-family: Abril Fatface;
+  font-size: 11rem;
+  line-height: 14rem;
+  color: #424A63;
+}
+
+.laboratorium .container .lab-title .title {
+  margin-left: 3rem;
+  line-height: 5em;
+  color: #FDE7B6;
+}
+
+.laboratorium .container .lab-title .title .labs {
+  font-size: 4rem;
+}
+
+.laboratorium .container .lab-title .title .sub-title {
+  display: inline-flex;
+}
+
+.laboratorium .container .lab-title .title .sub-title .di {
+  font-size: 2.5rem;
+}
+
+.laboratorium .container .lab-title .title .sub-title .tff {
+  font-size: 4rem;
+}
+
+.laboratorium .container .content-lab {
+  display: inline-block;
+  padding-bottom: 3em;
+}
+
+.laboratorium .container .content-lab a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0;
+  font-family: Zilla Slab;
+  font-size: 2.7rem;
+  background: linear-gradient(90deg, #424563 0%, rgba(66, 74, 99, 0) 119.01%);
+  border: 1px solid #fde7b6;
+  box-sizing: border-box;
+  margin-bottom: 0.5em;
+  padding: 0 1rem;
+}
+
+.laboratorium .container .content-lab a:hover {
+  color: #a32c38;
+  background: #fde7b6;
+  display: block;
+  transition: 0.3s;
+}
+
+@media (min-width: 321px) and (max-width: 450px) {
+  .bidang-minat {
+    overflow: hidden;
+  }
+  .bidang-minat .container .vektor {
+    position: absolute;
+    right: -7%;
+    top: 4%;
+  }
+  .bidang-minat .container .vektor img {
+    max-width: 65%;
+    height: auto;
+  }
+  .bidang-minat .container .bidmin-title {
+    padding: 2rem 0;
+    margin-left: 2rem;
+    float: left;
+  }
+  .bidang-minat .container .bidmin-title .number {
+    font-size: 4rem;
+    line-height: 1rem;
+  }
+  .bidang-minat .container .bidmin-title .title {
+    margin-left: 1rem;
+    line-height: 2.5rem;
+  }
+  .bidang-minat .container .bidmin-title .title .bidmin-tf {
+    font-size: 1.8rem;
+  }
+  .bidang-minat .container .bidmin-title .title .sub-title .di {
+    font-size: 1.2rem;
+  }
+  .bidang-minat .container .bidmin-title .title .sub-title .tff {
+    font-size: 1.5rem;
+  }
+  .bidang-minat .container .content-bidmin {
+    display: inline-block;
+  }
+  .bidang-minat .container .content-bidmin ul {
+    list-style: none;
+    padding: 0;
+  }
+  .bidang-minat .container .content-bidmin ul li {
+    font-family: Zilla Slab;
+    font-size: 1.25rem;
+    background: linear-gradient(90deg, #fde7b6 0%, rgba(253, 231, 182, 0) 118.48%);
+    border: 1px solid #424a63;
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+    padding: 0 0.5rem;
+  }
+  .laboratorium .container .vektor {
+    position: absolute;
+    left: 4%;
+    top: 4%;
+  }
+  .laboratorium .container .vektor img {
+    max-width: 65%;
+    height: auto;
+  }
+  .laboratorium .container .lab-title {
+    padding: 2rem 0;
+    margin-left: 2rem;
+    float: right;
+  }
+  .laboratorium .container .lab-title .number {
+    font-size: 4rem;
+    line-height: 1rem;
+  }
+  .laboratorium .container .lab-title .title {
+    margin-left: 1rem;
+    line-height: 2.5rem;
+  }
+  .laboratorium .container .lab-title .title .labs {
+    font-size: 1.8rem;
+  }
+  .laboratorium .container .lab-title .title .sub-title .di {
+    font-size: 1.2rem;
+  }
+  .laboratorium .container .lab-title .title .sub-title .tff {
+    font-size: 1.5rem;
+  }
+  .laboratorium .container .content-lab {
+    display: inline-block;
+    padding-bottom: 3em;
+  }
+  .laboratorium .container .content-lab a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+    font-family: Zilla Slab;
+    font-size: 1.25rem;
+    background: linear-gradient(90deg, #424563 0%, rgba(66, 74, 99, 0) 119.01%);
+    border: 1px solid #fde7b6;
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+    padding: 0 1rem;
+  }
+  .laboratorium .container .content-lab a :hover {
+    color: #a32c38;
+    background-color: #fde7b6;
+    display: block;
+    transition: 0.3s;
+  }
+}
 /*# sourceMappingURL=style.css.map */
