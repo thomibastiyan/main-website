@@ -34,7 +34,16 @@ Route::get('/lpkrk', function () {
 Route::get('/ico', function () {
   return view('main.ico', ['title' => 'ICO']);
 });
+Route::get('/about', function (){
+  return view('main.about',['title'=>'About TF']);
+});
 
+
+Route::get('/snow', function () {
+  return view('main.snow', [
+    'title' => 'SNOW'
+  ]);
+});
 
 // FOR OPEN RECRUITMENT
 Route::post('/applicantsubmit', [ApplicantController::class, 'store']);
