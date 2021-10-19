@@ -22,25 +22,46 @@ use App\Http\Controllers\PagesController;
 // FOR MAIN WEBSITE
 Route::get('/', [PagesController::class, 'comingsoon']);
 Route::get('/home', [PagesController::class, 'index']);
-Route::get('/vibrastik', function (){
-  return view('main.vibrastik',['title'=>'Vibrastik']);
+Route::get('/about', function () {
+  return view('main.about', ['title' => 'About TF']);
 });
-Route::get('/fotonika', function (){
-  return view('main.fotonika',['title'=>'Fotonika']);
+
+Route::get('/vibrastik', function () {
+  return view('main.laboratory.vibrastik', ['title' => 'Vibrastik']);
 });
-Route::get('/lpkrk', function (){
-  return view('main.lpkrk',['title'=>'LPKRK']);
+Route::get('/fotonika', function () {
+  return view('main.laboratory.fotonika', ['title' => 'Fotonika']);
 });
-Route::get('/about', function (){
-  return view('main.about',['title'=>'About TF']);
+Route::get('/lpkrk', function () {
+  return view('main.laboratory.lpkrk', ['title' => 'LPKRK']);
 });
+Route::get('/ico', function () {
+  return view('main.laboratory.ico', ['title' => 'ICO']);
+});
+Route::get('/lmfm', function () {
+  return view('main.laboratory.lmfm', ['title' => 'LMFM']);
+});
+Route::get('/ecs', function () {
+  return view('main.laboratory.ecs', ['title' => 'ECS']);
+});
+Route::get('/energi', function () {
+  return view('main.laboratory.energi', ['title' => 'Energi']);
+});
+
 Route::get('/epc', function (){
   return view('main.epc',['title'=>'EPC']);
 });
-
 Route::get('/snow', function () {
-  return view('main.snow', [
+  return view('main.laboratory.snow', [
     'title' => 'SNOW'
+  ]);
+});
+
+Route::get('/registrasi', [PagesController::class, 'registrasi']);
+Route::get('/prapenyisihan', [PagesController::class, 'prapenyisihan']);
+Route::get('/loginepc', function () {
+  return view('main.loginepc', [
+    'title' => 'loginepc'
   ]);
 });
 

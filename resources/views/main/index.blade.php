@@ -119,8 +119,7 @@
       <a href="" class="GR-btn">Detail</a>
     </div>
   </div>
-  <img src="/img/Grand-Roadshow/bg-grand-roadshow
-  .jpg" class="GR-nih" alt="GR-nih">
+  <img src="/img/Grand-Roadshow/bg-grand-roadshow.jpg" class="GR-nih" alt="GR-nih">
 </section>
 <!-- end of Grand Roadshow -->
 <!-- Big Event -->
