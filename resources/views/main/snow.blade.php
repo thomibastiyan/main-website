@@ -61,7 +61,7 @@
       <div class="description-theme my-3">
         <div class="row align-items-center">
           <div class="col-md-5 col-lg-3">
-            <h2 class="theme-title text-center mb-3">Theme</h2>
+            <h2 class="theme-title text-center mb-3 mb-md-0">Theme</h2>
           </div>
           <div class="col-md-7 col-lg-9">
             <p class="theme-desc text-center text-md-start">Smart Inovating of Writing (SNOW) merupakan salah satu sub-event EPW berupa lomba karya tulis ilmiah dari sebuah event tahunan yang diselenggarakan oleh Departemen Teknik Fisika ITS. Kompetisi ini diadakan sebagai ajang penyaluran ide kreatif dan solutif untuk Siswa SMA/Sederajat dan Mahasiswa. Setiap tim terdiri dari 2-3 peserta. Karya yang dikirimkan merupakan karya yang orisinil dan belum pernah dipublikasikan.
@@ -72,7 +72,7 @@
       <div class="description-subtheme my-3">
         <div class="row align-items-center">
           <div class="col-md-5 col-lg-3">
-            <h2 class="subtheme-title text-center mb-3">Sub-Theme</h2>
+            <h2 class="subtheme-title text-center mb-3 mb-md-0">Sub-Theme</h2>
           </div>
           <div class="col-md-7 col-lg-9">
             <p class="subtheme-desc text-center text-md-start">Smart Inovating of Writing (SNOW) merupakan salah satu sub-event EPW berupa lomba karya tulis ilmiah dari sebuah event tahunan yang diselenggarakan oleh Departemen Teknik Fisika ITS. Kompetisi ini diadakan sebagai ajang penyaluran ide kreatif dan solutif untuk Siswa SMA/Sederajat dan Mahasiswa. Setiap tim terdiri dari 2-3 peserta. Karya yang dikirimkan merupakan karya yang orisinil dan belum pernah dipublikasikan.
@@ -107,7 +107,7 @@
               <p class="prize-value">IDR 4,000,000</p>
             </div>
             <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy.svg" alt="">
+              <img src="/svg/trophy-snow.svg" alt="">
             </div>
           </div>
           <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
@@ -116,7 +116,7 @@
               <p class="prize-value">IDR 2,500,000</p>
             </div>
             <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy.svg" alt="">
+              <img src="/svg/trophy-snow.svg" alt="">
             </div>
           </div>
           <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
@@ -125,7 +125,7 @@
               <p class="prize-value">IDR 1,500,000</p>
             </div>
             <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy.svg" alt="">
+              <img src="/svg/trophy-snow.svg" alt="">
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@
               <p class="prize-value">IDR 2,500,000</p>
             </div>
             <div class="prize-trophy left-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy.svg" alt="">
+              <img src="/svg/trophy-snow.svg" alt="">
             </div>
           </div>
           <div class="prize-detail ps-5 d-flex justify-content-center flex-column text-center">
@@ -148,7 +148,7 @@
               <p class="prize-value">IDR 1,500,000</p>
             </div>
             <div class="prize-trophy left-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy.svg" alt="">
+              <img src="/svg/trophy-snow.svg" alt="">
             </div>
           </div>
           <div class="prize-detail ps-5 d-flex justify-content-center flex-column text-center">
@@ -157,7 +157,7 @@
               <p class="prize-value">IDR 1,000,000</p>
             </div>
             <div class="prize-trophy left-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy.svg" alt="">
+              <img src="/svg/trophy-snow.svg" alt="">
             </div>
           </div>
         </div>
@@ -171,7 +171,7 @@
               <p class="prize-value">IDR 250,000</p>
             </div>
             <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy.svg" alt="">
+              <img src="/svg/trophy-snow.svg" alt="">
             </div>
           </div>
           <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
@@ -180,7 +180,7 @@
               <p class="prize-value">IDR 150,000</p>
             </div>
             <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy.svg" alt="">
+              <img src="/svg/trophy-snow.svg" alt="">
             </div>
           </div>
         </div>
@@ -194,7 +194,7 @@
               <p class="prize-value">IDR 300,000</p>
             </div>
             <div class="prize-trophy left-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy.svg" alt="">
+              <img src="/svg/trophy-snow.svg" alt="">
             </div>
           </div>
           <div class="prize-detail ps-5 d-flex justify-content-center flex-column text-center">
@@ -203,7 +203,7 @@
               <p class="prize-value">IDR 200,000</p>
             </div>
             <div class="prize-trophy left-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy.svg" alt="">
+              <img src="/svg/trophy-snow.svg" alt="">
             </div>
           </div>
         </div>

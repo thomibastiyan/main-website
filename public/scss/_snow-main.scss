@@ -7,7 +7,7 @@
     position: relative;
     padding: 4rem 0;
     .header {
-        min-height: 90vh;
+        min-height: 70vh;
         &-logo {
             width: 300px;
             max-width: 100%;
@@ -417,8 +417,8 @@
                 top: 50%;
                 left: 0;
                 transform: translate(-40%, -50%);
-                width: 228px;
-                height: 228px;
+                width: 200px;
+                height: 200px;
                 border-radius: 50%;
                 border: 3px solid $secondary-snow;
                 background-color: $primary-event;
