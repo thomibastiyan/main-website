@@ -47,6 +47,10 @@ Route::get('/ecs', function () {
 Route::get('/energi', function () {
   return view('main.laboratory.energi', ['title' => 'Energi']);
 });
+
+Route::get('/epc', function (){
+  return view('main.epc',['title'=>'EPC']);
+});
 Route::get('/snow', function () {
   return view('main.laboratory.snow', [
     'title' => 'SNOW'
