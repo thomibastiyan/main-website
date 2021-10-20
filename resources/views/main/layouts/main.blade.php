@@ -37,27 +37,27 @@
         <div class="collapse navbar-collapse flex-lg-grow-0" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item text-center">
-              <a class="nav-link my-3" href="#">Home</a>
+              <a class="nav-link my-3" href="/home">Home</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link my-3" href="#">About</a>
+              <a class="nav-link my-3" href="/about">About</a>
             </li>
             <li class="nav-item text-center dropdown">
               <a class="nav-link dropdown-toggle my-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Event
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item text-center" href="#">EPC</a></li>
-                <li><a class="dropdown-item text-center" href="#">SNOW</a></li>
-                <li><a class="dropdown-item text-center" href="#">Grand Roadshow</a></li>
-                <li><a class="dropdown-item text-center" href="#">Big Event</a></li>
+                <li><a class="dropdown-item text-center" href="/epc">EPC</a></li>
+                <li><a class="dropdown-item text-center" href="/snow">SNOW</a></li>
+                <li><a class="dropdown-item text-center" href="/">Grand Roadshow</a></li>
+                <li><a class="dropdown-item text-center" href="/">Big Event</a></li>
               </ul>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link my-3" href="#">Merchandise</a>
+              <a class="nav-link my-3" href="/">Merchandise</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link my-3" href="#">Login</a>
+              <a class="nav-link my-3" href="/">Login</a>
             </li>
           </ul>
         </div>

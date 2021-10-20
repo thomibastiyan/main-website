@@ -1,0 +1,102 @@
+// 
+
+
+.pengembangan {
+    width: 800px;
+    max-width: 100%;
+
+    &-judul {
+        font-family: $font-zilla;
+        font-size: 32px;
+        color: $darker-blue;
+        background-color: $primary-event;
+        width: fit-content;
+        padding: 10px 20px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &-isi {
+        color: $darker-blue;
+        list-style-type: decimal;
+        margin-bottom: 1rem;
+        font-size: $size-content;
+
+    }
+}
+
+
+.penelitian {
+    width: 800px;
+    max-width: 100%;
+
+    &-judul {
+        font-family: $font-zilla;
+        font-size: 32px;
+        color: $darker-blue;
+        background-color: $primary-event;
+        width: fit-content;
+        padding: 10px 20px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &-isi {
+        list-style-type: decimal;
+        margin-bottom: 1rem;
+        color: $darker-blue;
+        font-size: $size-content;
+    }
+
+
+}
+
+.penghargaan {
+    width: 800px;
+    max-width: 100%;
+
+    &-judul {
+        font-family: $font-zilla;
+        font-size: 32px;
+        color: $darker-blue;
+        background-color: $primary-event;
+        width: fit-content;
+        padding: 10px 20px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &-isi {
+        list-style-type: decimal;
+        margin-bottom: 3rem;
+        color: $darker-blue;
+        font-size: $size-content;
+
+    }
+
+
+
+
+}
+
+// 
+.body {
+    background-color: #F2F2F2;
+}
+
+.judul h1 {
+    font-family: $font-abril;
+    color: $darker-blue;
+    margin-bottom: 1rem;
+}
+
+.container-2 p {
+    font-family: $font-zilla;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-right: 60px;
+    text-align: justify;
+    color: $darker-blue;
+    line-height: 30px;
+
+}

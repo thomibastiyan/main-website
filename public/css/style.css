@@ -15,7 +15,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Zilla Slab", serif;
-  font-size: 16px;
 }
 
 @media screen and (max-width: 576px) {
@@ -3284,5 +3283,94 @@ footer.footer-blue .copyright {
   .section-three .contact-person {
     padding: 2em 0 2em 2em;
   }
+}
+
+.pengembangan {
+  width: 800px;
+  max-width: 100%;
+}
+
+.pengembangan-judul {
+  font-family: "Zilla Slab", serif;
+  font-size: 32px;
+  color: #424a63;
+  background-color: #fde7b6;
+  width: fit-content;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pengembangan-isi {
+  color: #424a63;
+  list-style-type: decimal;
+  margin-bottom: 1rem;
+  font-size: 22px;
+}
+
+.penelitian {
+  width: 800px;
+  max-width: 100%;
+}
+
+.penelitian-judul {
+  font-family: "Zilla Slab", serif;
+  font-size: 32px;
+  color: #424a63;
+  background-color: #fde7b6;
+  width: fit-content;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.penelitian-isi {
+  list-style-type: decimal;
+  margin-bottom: 1rem;
+  color: #424a63;
+  font-size: 22px;
+}
+
+.penghargaan {
+  width: 800px;
+  max-width: 100%;
+}
+
+.penghargaan-judul {
+  font-family: "Zilla Slab", serif;
+  font-size: 32px;
+  color: #424a63;
+  background-color: #fde7b6;
+  width: fit-content;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.penghargaan-isi {
+  list-style-type: decimal;
+  margin-bottom: 3rem;
+  color: #424a63;
+  font-size: 22px;
+}
+
+.body {
+  background-color: #F2F2F2;
+}
+
+.judul h1 {
+  font-family: "Abril Fatface", cursive;
+  color: #424a63;
+  margin-bottom: 1rem;
+}
+
+.container-2 p {
+  font-family: "Zilla Slab", serif;
+  font-size: 22px;
+  margin-top: 35px;
+  margin-right: 60px;
+  text-align: justify;
+  color: #424a63;
+  line-height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
