@@ -67,76 +67,65 @@
     {{-- End of Navbar --}}
 
     @yield('content')
-
-    <!--deskripsi Lab-->
-    <section class="container mt-5">
-      <div class="text-center fw-bold" style="font-family: Abril Fatface; color: #424a63; font-size: 42px">Laboratorium Instrumentasi, Kontrol, dan Optimisasi</div>
-      <div class="row justify-content-center" style="width: auto">
-        <div class="col-md-4 mt-5 text-center">
-          <img src="/img/lab-logo/ico.png" class="img-fluid" alt="logo lab ico"/>
-        </div>
-        <div class="col-md-8">
-          <div class="badge text-wrap">
-            <p class="fs-5 m-auto lh-base" style="font-family: Zilla Slab; text-align: justify; color: #839b4e;">Laboratorium instrumentasi, kontrol, dan optimisasi adalah laboratorium di departemen teknik fisika yang berfokus pada bidang instrumentasi dan pengembangannya meliputi manufacturing, desain, hingga aplikasi dari instrument dan control. Proses deteksi, observasi, pengukuran, dan akuisisi data dipelajari dalam berbagai bidang mulai dari industry hingga medis.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- bidang pengembangan -->
-    <section class="container mt-5">
-      <div class="badge text-wrap" style="width: 300px; background: #fde7b6">
-        <p class="text-center fs-4 m-auto lh-lg" style="color: #424a63; font-family: 'Zilla Slab', serif">Bidang Pengembangan</p>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="badge text-wrap" style="width: auto">
-            <p class="text-start fs-5 m-auto lh-base" style="color: #424a63; font-family: 'Zilla Slab', serif">
-              1. Mengembangkan rancang bangun instrumentasi, kalibrasi, pengukuran,   pengendalian, dan safety untuk aplikasi di industri dan medis.<br>
-              2. Mangembangkan teknologi jaringan untuk sistem deteksi, observasi, dan pengendalian.<br>
-              3. Mengembangkan metode neural network, genetic algoritma, fuzzy logic, artificial intelligent.<br>
-              4. Mengembangkan rancang bangun instrumentasi kedokteran untuk aplikasi medis.<br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- penelitian -->
-    <section class="container mt-5">
-      <div class="badge text-wrap" style="width: 300px; background: #fde7b6">
-        <p class="text-center fs-4 m-auto lh-lg" style="color: #424a63; font-family: 'Zilla Slab', serif">Penelitian</p>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="badge text-wrap" style="width: auto">
-            <p class="text-start fs-5 m-auto lh-base" style="color: #424a63; font-family: 'Zilla Slab', serif">
-              1. Utami, E & Purnomo, M & Rizki, R & Biyanto, Totok. (2020). Preliminary sandstone reservoir depth prediction with pre-processing data using principle component analysis (PCA) and partial least square (PLS) based on well logging.<br>
-              2. Purnomo, Leo & Biyanto, Totok. (2019). Neural network model for profile temperature of nickel kiln. AIP Conference Proceedings. 2088. 020015. 10.1063/1.5095267.<br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- penghargaan -->
-    <section class="container mt-5">
-      <div class="badge text-wrap" style="width: 300px; background: #fde7b6">
-        <p class="text-center fs-4 m-auto lh-lg" style="color: #424a63; font-family: 'Zilla Slab', serif">Penghargaan</p>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="badge text-wrap" style="width: auto">
-            <p class="text-start fs-5 m-auto lh-base" style="color: #424a63; font-family: 'Zilla Slab', serif; margin-bottom: 1rem;">
-              1. 1st winner paper competition and petroolympic case study competition oil and gas horizons XI at Gubkin University, Russia. <br>
-              2. 1st place (champion) plant design competition energy and environmental competition 2019 at university teknologi mara,     Malaysia. <br>
-              3. 2nd (runner up) power plant design competition SPE UTM. <br>
-              4. 2nd RU paper competition (oil and gas festival 2018 malaysia). <br>
-              5. 3rd winner of international process control competition 2018 at Institut Teknologi Sepuluh Nopember (ITS). <br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <div class="body">
+      <div class="container">
+        <!-- Description -->
+        <section id="deskripsi">
+          <div class="container-1">
+            <div class="judul">
+              <div class="row text-center">
+                <div class="col">
+                  <h1 class="mt-5 fw-bold">Laboratorium Instrumentasi, Kontrol, dan Optimisasi</h1>      
+                </div>       
+              </div>
+            </div>
+          <div class="container-2">
+            <div class="row justify-content-center">
+             <div class="col-md-3 text-center" >
+               <img src="/img/lab-logo/ico.png" class="img-fluid" alt="logo lab ico">
+             </div>
+             <div class="col-md-5">
+               <p>Laboratorium instrumentasi, kontrol, dan optimisasi adalah laboratorium di departemen teknik fisika yang berfokus pada bidang instrumentasi dan pengembangannya meliputi manufacturing, desain, hingga aplikasi dari instrument dan control. Proses deteksi, observasi, pengukuran, dan akuisisi data dipelajari dalam berbagai bidang mulai dari industry hingga medis.</p>
+             </div>
+           </div>
+         </div>
+        </section>
+        <!-- Pengembangan -->
+        <section class="pengembangan mx-auto">
+          <h2 class="pengembangan-judul">Bidang Pengembangan</h2>
+          <ol class="pengembangan-isi">
+            <li>Mengembangkan rancang bangun instrumentasi, kalibrasi, pengukuran,   pengendalian, dan safety untuk aplikasi di industri dan medis.</li>
+            <li>Mangembangkan teknologi jaringan untuk sistem deteksi, observasi, dan pengendalian. </li>
+            <li>Mengembangkan metode neural network, genetic algoritma, fuzzy logic, artificial intelligent.</li>
+            <li>Mengembangkan rancang bangun instrumentasi kedokteran untuk aplikasi medis.</li>
+          </ol>
   
+        </section>
+        <!-- Penelitiaan -->
+        <section class="penelitian mx-auto">
+          <h2 class="penelitian-judul">Penelitian</h2>
+          <ol class="penelitian-isi">
+            <li>Utami, E & Purnomo, M & Rizki, R & Biyanto, Totok. (2020). Preliminary sandstone reservoir depth prediction with pre-processing data using principle component analysis (PCA) and partial least square (PLS) based on well logging.</li>
+            <li>Purnomo, Leo & Biyanto, Totok. (2019). Neural network model for profile temperature of nickel kiln. AIP Conference Proceedings. 2088. 020015. 10.1063/1.5095267.</li>
+          </ol>
+        </section>
+        <!--Penghargaan-->
+        <section class="penghargaan mx-auto">
+          <h2 class="penghargaan-judul">Penghargaan</h2>
+          <ol class="penghargaan-isi">
+            <li>1st winner paper competition and petroolympic case study competition oil and gas horizons XI at Gubkin University, Russia.</li>
+            <li>1st place (champion) plant design competition energy and environmental competition 2019 at university teknologi mara,     Malaysia.</li>
+            <li>2nd (runner up) power plant design competition SPE UTM.</li>
+            <li>2nd RU paper competition (oil and gas festival 2018 malaysia).</li>
+            <li>3rd winner of international process control competition 2018 at Institut Teknologi Sepuluh Nopember (ITS).</li>
+          </ol>
+          
+        </section>
+        
+  
+  
+      </div>
+    </div>
 
     {{-- Footer --}}
     <footer class="footer footer-blue">
