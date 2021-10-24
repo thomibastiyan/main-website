@@ -1,0 +1,14 @@
+body {
+    background-color: #f2f2f2;
+}
+@media (min-width: 321px) and (max-width: 450px) {
+    body {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .container h1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
