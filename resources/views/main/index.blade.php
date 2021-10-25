@@ -57,10 +57,10 @@
       <img src="/svg/icons/events-icon.svg" class="events" alt="events">
     </div>
     <div class="d-flex justify-content-evenly align-items-center">
-      <div class="EPC-events">EPC</div>
-      <div class="SNOW-events">SNOW</div>
-      <div class="GR-events">GRAND<br>ROADSHOW</div>
-      <div class="BE-events">BIG EVENT</div>
+      <a href="/epc" class="EPC-events">EPC</a>
+      <a href="/snow" class="SNOW-events">SNOW</a>
+      <a href="" class="GR-events">GRAND<br>ROADSHOW</a>
+      <a href="" class="BE-events">BIG EVENT</a>
     </div>
   </div>
 </section>
