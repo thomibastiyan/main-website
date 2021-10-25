@@ -174,6 +174,9 @@
     background-color: $darker-blue;
     max-width: 100vw;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .rainbow {
         position: absolute;
@@ -185,8 +188,6 @@
     }
 
     .container.EVENTS {
-        padding: 10px 0px;
-
         .events-header {
             position: relative;
 
@@ -201,12 +202,13 @@
 
         .d-flex {
             flex-wrap: wrap;
-            color: #FFEBB0;
             margin-top: 225px;
 
             .EPC-events {
+                color: #FFEBB0;
                 font-family: $font-abril;
                 font-size: 36px;
+                text-decoration: none;
                 border: 3px solid #FDE7B6;
                 box-sizing: border-box;
                 padding-top: 30px;
@@ -217,8 +219,10 @@
             }
 
             .SNOW-events {
+                color: #FFEBB0;
                 font-family: $font-abril;
                 font-size: 36px;
+                text-decoration: none;
                 border: 3px solid #FDE7B6;
                 box-sizing: border-box;
                 padding-top: 30px;
@@ -229,9 +233,11 @@
             }
 
             .GR-events {
+                color: #FFEBB0;
                 font-family: $font-abril;
                 font-size: 32px;
                 text-align: center;
+                text-decoration: none;
                 border: 3px solid #FDE7B6;
                 box-sizing: border-box;
                 padding-top: 16px;
@@ -242,8 +248,10 @@
             }
 
             .BE-events {
+                color: #FFEBB0;
                 font-family: $font-abril;
                 font-size: 36px;
+                text-decoration: none;
                 border: 3px solid #FDE7B6;
                 box-sizing: border-box;
                 padding-top: 30px;
