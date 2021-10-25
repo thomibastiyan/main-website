@@ -4,8 +4,8 @@
 
     <!--deskripsi Lab-->
     <section class="container mt-5">
-        <h1 class="text-center fw-bold" style="font-family: Abril Fatface; color: #424a63; font-size: 42px">Laboratorium Pengukuran, Keandalan, Risiko, dan Keselamatan</h1>
-        <div class="row justify-content-center" style="width: auto">
+        <div class="text-center fw-bold" style="font-family: Abril Fatface; color: #424a63; font-size: 42px">Laboratorium Pengukuran, Keandalan, Risiko, dan Keselamatan</div>
+        <div class="row justify-content-center align-items-center" style="margin-top:60px">
           <div class="col-md-4 mt-3 text-center">
             <img src="img/lab-logo/lpkrk.png" class="img-fluid" alt="logo lab LPKRK" />
           </div>

@@ -5,8 +5,8 @@
     <!--deskripsi Lab-->
     <section class="container mt-5">
       <div class="text-center fw-bold" style="font-family: Abril Fatface; color: #424a63; font-size: 42px">Laboratorium Vibrasi dan Akustik</div>
-      <div class="row justify-content-center" style="width: auto">
-        <div class="col-md-4 mt-5 text-center">
+      <div class="row justify-content-center align-items-center" style="margin-top:60px">
+        <div class="col-md-4 text-center">
           <img src="/img/lab-logo/vibrastik.png" class="img-fluid" alt="logo lab vibrastik"/>
         </div>
         <div class="col-md-8">
