@@ -26,30 +26,32 @@ Route::get('/about', function () {
   return view('main.about', ['title' => 'About TF']);
 });
 
-Route::get('/vibrastik', function () {
+Route::get('/vibrasi-dan-akustik', function () {
   return view('main.laboratory.vibrastik', ['title' => 'Vibrastik']);
 });
-Route::get('/fotonika', function () {
+Route::get('/rekayasa-fotonika', function () {
   return view('main.laboratory.fotonika', ['title' => 'Fotonika']);
 });
-Route::get('/lpkrk', function () {
+Route::get('/pengukuran-keandalan-risiko-dan-keselamatan', function () {
   return view('main.laboratory.lpkrk', ['title' => 'LPKRK']);
 });
-Route::get('/ico', function () {
+Route::get('/instrumentasi-kontrol-dan-optimisasi', function () {
   return view('main.laboratory.ico', ['title' => 'ICO']);
 });
-Route::get('/lmfm', function () {
+Route::get('/material-fungsional-maju', function () {
   return view('main.laboratory.lmfm', ['title' => 'LMFM']);
 });
-Route::get('/ecs', function () {
+Route::get('/sistem-tertanam-dan-siber-fisik', function () {
   return view('main.laboratory.ecs', ['title' => 'ECS']);
 });
-Route::get('/energi', function () {
+Route::get('/rekayasa-energi-dan-pengondisian-lingkungan', function () {
   return view('main.laboratory.energi', ['title' => 'Energi']);
 });
 
 Route::get('/epc', function () {
-  return view('main.epc', ['title' => 'EPC']);
+  return view('main.epc', [
+    'title' => 'EPC'
+  ]);
 });
 Route::get('/snow', function () {
   return view('main.snow', [

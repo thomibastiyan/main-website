@@ -79,34 +79,13 @@
           </div>
         </div>
         <div class="content-lab justify-content-center">
-              <a href="http://www.google.com/" target="_blank"
-                >1. Laboratorium Instrumentasi, Kontrol, dan Optimisasi</a
-              >
-           
-              <a href="http://www.google.com/" target="_blank"
-                >2. Laboratorium Rekayasa Energi dan Pengkondisian Lingkungan</a
-              >
-      
-              <a href="https://classroom.its.ac.id/" target="_blank"
-                >3. Laboratorium Material Fungsional Maju</a
-              >
-      
-              <a href="https://my.its.ac.id" target="_blank">
-                4. Laboratorium Vibrasi dan Akustik</a
-              >
-          
-              <a href="https://my.its.ac.id" target="_blank"
-                >5. Laboratorium Rekayasa Fotonika
-              </a>
-           
-              <a href="https://my.its.ac.id" target="_blank"
-                >6. Laboratorium Sistem Tertanam dan Siber-Fisik
-              </a>
-            
-              <a href="https://my.its.ac.id" target="_blank">
-                7. Laboratorium Pengukuran, Keandalan, Risiko dan Keselamatan
-              </a>
-           
+          <a href="/instrumentasi-kontrol-dan-optimisasi">1. Laboratorium Instrumentasi, Kontrol, dan Optimisasi</a>
+          <a href="/rekayasa-energi-dan-pengondisian-lingkungan">2. Laboratorium Rekayasa Energi dan Pengkondisian Lingkungan</a>
+          <a href="/material-fungsional-maju">3. Laboratorium Material Fungsional Maju</a>
+          <a href="/vibrasi-dan-akustik">4. Laboratorium Vibrasi dan Akustik</a>
+          <a href="/rekayasa-fotonika">5. Laboratorium Rekayasa Fotonika</a>
+          <a href="/sistem-tertanam-dan-siber-fisik">6. Laboratorium Sistem Tertanam dan Siber-Fisik</a>
+          <a href="/pengukuran-keandalan-risiko-dan-keselamatan">7. Laboratorium Pengukuran, Keandalan, Risiko dan Keselamatan</a>
         </div>
       </div>
     </section>
