@@ -14,6 +14,7 @@
 
     <link rel="shortcut icon" href="/img/epw-logo/logo-bg-blue.png" type="image/x-icon">
     <title>EPW 2022 | {{ $title }}</title>
+    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg py-0">
@@ -32,9 +33,16 @@
             <div class="col-md-6"></div>
         </div>
     </nav>
+   
+
+  <div class= "img-background"><svg width="auto" height="auto" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="1280" height="720" fill="#E56848"/>
+        <path d="M2.5 717.5V2.5H767.077L433.921 717.5H2.5Z" fill="#C5D8AB" stroke="#FDE7B6" stroke-width="5"/>
+        </svg>
+   
 
    {{-- try --}}
-   <section class="container mt-5" style="padding:5rem">
+   <section class="container mt-5" style="padding:5rem; position: absolute; top: 100px;">
     <div class="row" style="width: auto">
       <div class="col text-start">
         <div class="ps-2">
@@ -54,21 +62,25 @@
                 </svg>
         </div>
       </div>
-      <div class="col">
+      <div class="col" style="margin-left: 400px">
             <div style = "margin:0 auto">
                 <div class="mb-3">
-                    <label for="username" class="form-label">Username</label>
-                    <input type="username" class="form-control" id="username" placeholder="Username">
-                    <label for="password" class="form-label">Password</label>
+                    <label for="username" class="form-label" style="color:white">Username</label>
+                    <input type="username" class="form-control" id="username" placeholder="Username" style="margin-bottom:20px;">
+                    <label for="password" class="form-label" style="color:white">Password</label>
                     <input type="password" class="form-control" id="password" placeholder="Password">
                 </div>
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-" type="login" style= "background:#424A63; " text-color= "white">
+            <button class="btn btn-" type="login" style= "background:#424A63; margin-bottom:30px" text-color= "white">
                 <b style= "color: white"> Log in </b>
 
             </button>
-            </div>
+        </div>
+        <p style="color:white; padding-top:0px; ">
+            Belum mendaftar? 
+            <a style="color: white" href="registrasi"> Daftar sekarang</a>
+        </p>
       </div>
     </div>
   </section>

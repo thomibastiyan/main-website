@@ -52,8 +52,8 @@
                     </svg>
                 </div>
                 <div class="desc col-sm-9 d-flex flex-column justify-content-center">
-                    <div class="subjudul text-start">Penyisihan</div>
-                    <div class="ket text-start mt-1">22 Januari 2021</div>
+                    <b style="color: #424A63;"><div class="subjudul text-start">Penyisihan</div>
+                    <div class="ket text-start mt-1">22 Januari 2021</div></b>
                 </div>
             </div>
             <div class="box box2 row d-flex">
@@ -65,8 +65,8 @@
 </svg>
                 </div>
                 <div class="desc col-sm-9 d-flex flex-column justify-content-center">
-                    <div class="subjudul text-start">Skor</div>
-                    <div class="ket text-start mt-1">1000</div>
+                    <b style="color: #424A63;"><div class="subjudul text-start">Skor</div>
+                    <div class="ket text-start mt-1">1000</div></b>
                 </div>
             </div>
             <div class="box box3 row d-flex">
@@ -76,8 +76,8 @@
 </svg>
                 </div>
                 <div class="desc col-sm-9 d-flex flex-column justify-content-center">
-                    <div class="subjudul text-start">Ranking</div>
-                    <div class="ket text-start mt-1">100</div>
+                    <b style="color: #424A63;"><div class="subjudul text-start">Ranking</div>
+                    <div class="ket text-start mt-1">100</div></b>
                 </div>
             </div>
         </div>
