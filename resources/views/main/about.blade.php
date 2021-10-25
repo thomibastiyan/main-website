@@ -69,9 +69,9 @@
           <div class="number">
             <p>7</p>
           </div>
-          <div class="vektor"><img src="vector.svg" alt="" /></div>
+          <div class="vektor"><img src="/svg/vector.svg" alt="" /></div>
           <div class="title">
-            <div class="labs">Laborarotium</div>
+            <div class="labs">Laboratorium</div>
             <div class="sub-title align-items-center">
               <div class="di">di</div>
               <div class="tff">&nbspTeknik Fisika ITS</div>
