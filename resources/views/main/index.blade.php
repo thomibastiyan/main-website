@@ -6,7 +6,7 @@
 <!-- header -->
 <section id="header">
   <div class="container container-fluid d-flex align-items-center justify-content-center flex-lg-row flex-column header-epw">
-    <img src="/img/epw-logo/logo-red.png" class="logo-epw">
+    <img src="/svg/icons/icon-epw-red.svg" class="logo-epw">
     <div class="container-fluid d-flex align-items-center justify-content-center flex-column header-2022">
     <img src="/img/logo-2022.png" class="logo-2022">
     <p>Engineering Physics Week</p>
