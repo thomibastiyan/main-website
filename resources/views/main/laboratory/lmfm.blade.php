@@ -7,7 +7,7 @@
         <h1 class="labo-title text-center py-4">Laboratorium Material Fungsional Maju</h1>
         <div class="row align-items-center">
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="/img/lab-logo/bahan.png" class="labo-logo" alt="">
+                <img src="../img/lab-logo/bahan.png" class="labo-logo" alt="">
             </div>
             <div class="col-lg-8">
                 <p class="labo-desc">Laboratorium Material Fungsional Maju merupakan sarana pendukung untuk melakukan kegiatan pendidikan dan pengajaran, penelitian dan pengabdian kepada masyarakat dalam hal yang berkaitan dengan rekayasa bahan serta mempelajari berbagai pengetahuan material meliputi pengembangan dan penerapan pengetahuan mengenasi komposisi, struktur, pemrosesan, dan karakterisasi bahan yang sesuai dengan sifat-sifat dan terapannya. Termasuk juga ke dalamnya analisis kinerja sistem dan pemilihan material untuk sistem tertentu.</p>

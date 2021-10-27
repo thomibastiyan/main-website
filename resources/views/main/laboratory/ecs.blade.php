@@ -7,7 +7,7 @@
         <h1 class="labo-title text-center py-4">Laboratorium Sistem Tertanam dan Siber-Fisik</h1>
         <div class="row align-items-center">
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="/img/lab-logo/ecs.png" class="labo-logo" alt="">
+                <img src="../img/lab-logo/ecs.png" class="labo-logo" alt="">
             </div>
             <div class="col-lg-8">
                 <p class="labo-desc">Laboratorium Sistem Tertanam dan Siber-Fisik menghubungkan gagasan penelitian terbaru berbasis fisika dengan pengembangan produk/proses dalam format embedded system dan skema internet-of-things.</p>

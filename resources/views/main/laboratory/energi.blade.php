@@ -7,7 +7,7 @@
         <h1 class="labo-title text-center py-4"> Laboratorium Rekayasa Energi dan Pengkondisian Lingkungan</h1>
         <div class="row align-items-center">
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="/img/lab-logo/energi.png" class="energi-logo" alt="">
+                <img src="../img/lab-logo/energi.png" class="energi-logo" alt="">
             </div>
             <div class="col-lg-8">
                 <p class="labo-desc">Laboratorium ini merupakan tempat khusus untuk mempelajari dan mendalami bidang ilmu energi dan pengkondisian lingkungan (rekayasa thermal). Dalam menunjang bidang ilmu tersebut, maka laboratorium ini dibagi menjadi tiga bidang minat dalam pembelajarannya. Antara lain yaitu bidang minat Rekayasa Thermal, bidang minat Renewable Energi, dan bidang minat Energi Management dan Green Building</p>
