@@ -1,74 +1,40 @@
 @extends("main.layouts.main")
 
 @section("content")
-    <!--deskripsi Lab-->
-    <section class="container mt-5">
-      <h1 class="text-center mt-5 fw-bold" style="font-family: Abril Fatface; color: #424a63; font-size: 42px"> Laboratorium Rekayasa Energi dan Pengkondisian Lingkungan</h1>
-      <div class="row justify-content-center" style="width: auto">
-        <div class="col mt-5">
-          <img src="../img/lab-logo/energi.png" class="img-fluid" alt="logo lab energi"/>
+<section id="laboratoire">
+    <img src="/svg/labo-wire.svg" class="labo-wire-top" alt="labo-wire-top">
+    <div class="container px-4 px-lg-0 pb-5">
+        <h1 class="labo-title text-center py-4"> Laboratorium Rekayasa Energi dan Pengkondisian Lingkungan</h1>
+        <div class="row align-items-center">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="/img/lab-logo/energi.png" class="energi-logo" alt="">
+            </div>
+            <div class="col-lg-8">
+                <p class="labo-desc">Laboratorium ini merupakan tempat khusus untuk mempelajari dan mendalami bidang ilmu energi dan pengkondisian lingkungan (rekayasa thermal). Dalam menunjang bidang ilmu tersebut, maka laboratorium ini dibagi menjadi tiga bidang minat dalam pembelajarannya. Antara lain yaitu bidang minat Rekayasa Thermal, bidang minat Renewable Energi, dan bidang minat Energi Management dan Green Building</p>
+            </div>
         </div>
-        <div class="col-8">
-          <div class="badge text-wrap">
-            <p class="fs-5 m-auto lh-base" style="font-family: Zilla Slab; text-align: justify; color: #424a63">Laboratorium ini merupakan tempat khusus untuk mempelajari dan mendalami bidang ilmu energi dan pengkondisian lingkungan (rekayasa thermal). Dalam menunjang bidang ilmu tersebut, maka laboratorium ini dibagi menjadi tiga bidang minat dalam pembelajarannya. Antara lain yaitu bidang minat Rekayasa Thermal, bidang minat Renewable Energi, dan bidang minat Energi Management dan Green Building</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- bidang pengembangan -->
-    <section class="container mt-5">
-      <div class="badge text-wrap" style="width: 300px; background: #fde7b6">
-        <p class="text-center fs-4 m-auto lh-lg" style="color: #424a63; font-family: 'Zilla Slab', serif">Bidang Pengembangan</p>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="badge text-wrap" style="width: auto">
-            <p class="text-start fs-5 m-auto lh-base" style="color: #424a63; font-family: 'Zilla Slab', serif">
-           1. Bidang Minat Rekayasa Thermal (Thermal and Fluid Engineering)<br>
-           2. Bidang Minat Renewable Energy<br>
-           3. Bidang Minat Energy Management and Green Building<br>
-          
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- penelitian -->
-    <section class="container mt-5">
-      <div class="badge text-wrap" style="width: 300px; background: #fde7b6">
-        <p class="text-center fs-4 m-auto lh-lg" style="color: #424a63; font-family: 'Zilla Slab', serif">Penelitian</p>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="badge text-wrap" style="width: auto">
-            <p class="text-start fs-5 m-auto lh-base" style="color: #424a63; font-family: 'Zilla Slab', serif">
-             BELUM ADA <br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- penghargaan -->
-    <section class="container mt-5">
-      <div class="badge text-wrap" style="width: 300px; background: #fde7b6">
-        <p class="text-center fs-4 m-auto lh-lg" style="color: #424a63; font-family: 'Zilla Slab', serif">Penghargaan</p>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="badge text-wrap" style="width: auto">
-            <p class="text-start fs-5 m-auto lh-base" style="color: #424a63; font-family: 'Zilla Slab', serif">
-           1. Juara 2 Lomba KTI DISCO 4th 2021<br>
-           2. Juara 2 International Geothermal Study Case Competition by OGIP 2021<br>
-           3. Favorite winner Baroeyes International Energy Fair 2021<br>
-           4. Juara 1 Lomba KTI Pekan Raya Fisika IV Nasional 2021<br>
-           5. 4th Place Global Virtual League<br>
-           6. 3rd Place Virtual Technical Inspection<br>
-           7. 2nd Autonomous Programming<br>
-           8. Winner off track award : Data and Telemetry<br>
-              
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <h2 class="labo-section mt-5 mb-4">Bidang pengembangan</h2>
+        <ol class="labo-list ps-4">
+            <li>Bidang Minat Rekayasa Thermal (Thermal and Fluid Engineering)</li>
+            <li>Bidang Minat Renewable Energy</li> 
+            <li>Bidang Minat Energy Management and Green Building</li> 
+        </ol>
+        <h2 class="labo-section mt-5 mb-4">Penelitian</h2>
+        <ol class="labo-list ps-4">
+            <li>masih diminta</li> 
+        </ol>
+        <h2 class="labo-section mt-5 mb-4">Penghargaan</h2>
+        <ol class="labo-list ps-4">
+            <li>Juara 2 Lomba KTI DISCO 4th 2021</li>
+            <li>Juara 2 International Geothermal Study Case Competition by OGIP 2021</li> 
+            <li>Favorite winner Baroeyes International Energy Fair 2021</li>
+            <li>Juara 1 Lomba KTI Pekan Raya Fisika IV Nasional 2021</li>
+            <li>4th Place Global Virtual League</li> 
+            <li>3rd Place Virtual Technical Inspection</li> 
+            <li>2nd Autonomous Programming</li> 
+            <li>Winner off track award : Data and Telemetry</li>
+        </ol>
+    </div>
+    <img src="/svg/labo-wire.svg" class="labo-wire-bottom" alt="labo-wire-bottom">
+</section>
 @endsection
